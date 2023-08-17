@@ -1,0 +1,94 @@
+EESchema-LIBRARY Version 2.3  17/08/2023-07:26:53
+# Converted with eagle-lbr2kicad-1.0.ulp Version:3.10  Build Date:20-April-2017  USE THIS PROGRAM AT YOUR OWN RISK
+# devicesets = 7  devicescount =7
+#
+# +3V3     # +3V3
+#
+DEF +3V3 #M 0 40 N N 1 L P
+F0 "#M" 0 0 45 H I L BNN
+F1 "+3V3" -90 30 45 H V L BNN
+DRAW
+P 2 1 0 0 50 -75 0 0 N
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 0 -100 0 0 N
+X +3V3 ~ 0 -100 100 U 40 40 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +5V     # +5V
+#
+DEF +5V #M 0 40 N N 1 L P
+F0 "#M" 0 0 45 H I L BNN
+F1 "+5V" -90 30 45 H V L BNN
+DRAW
+P 2 1 0 0 50 -75 0 0 N
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 0 -100 0 0 N
+X +5V ~ 0 -100 100 U 40 40 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +6V     # +6V
+#
+DEF +6V #M 0 40 N N 1 L P
+F0 "#M" 0 0 45 H I L BNN
+F1 "+6V" -90 30 45 H V L BNN
+DRAW
+P 2 1 0 0 50 -75 0 0 N
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 0 -100 0 0 N
+X +6V ~ 0 -100 100 U 40 40 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +12V     # +12V
+#
+DEF +12V #M 0 40 N N 1 L P
+F0 "#M" 0 0 45 H I L BNN
+F1 "+12V" -90 30 45 H V L BNN
+DRAW
+P 2 1 0 0 50 -75 0 0 N
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 0 -100 0 0 N
+X +12V ~ 0 -100 100 U 40 40 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GND     # GND
+#
+DEF GND #GND 0 40 N N 1 L P
+F0 "#GND" 0 0 45 H I L BNN
+F1 "GND" -90 -100 45 H V L BNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+P 2 1 0 0 0 100 0 0 N
+X GND ~ 0 100 100 D 40 40 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# VCC     # VCC
+#
+DEF VCC #M 0 40 N N 1 L P
+F0 "#M" 0 0 45 H I L BNN
+F1 "VCC" -90 30 45 H V L BNN
+DRAW
+P 2 1 0 0 50 -75 0 0 N
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 0 -100 0 0 N
+X VCC ~ 0 -100 100 U 40 40 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# VDD     # VDD
+#
+DEF VDD #M 0 40 N N 1 L P
+F0 "#M" 0 0 45 H I L BNN
+F1 "VDD" -90 30 45 H V L BNN
+DRAW
+P 2 1 0 0 50 -75 0 0 N
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 0 -100 0 0 N
+X VDD ~ 0 -100 100 U 40 40 1 1 W N
+ENDDRAW
+ENDDEF
+#End Library
